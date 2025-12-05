@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+    <h1>preapare your next trip with me ....</h1>
+    <p>please get in touch , i'll reply to you shortly</p>
+    <div>
+        <div>
+            <label for="name">Full Name</label>
+            <input type="text" id="name"  name="Name" required placeholder="please Enter your full Name"> 
+        </div>
+        <div>
+            <label for="name">Email address</label>
+            <input type="email" id="Email"  name="the Email" required placeholder="please Enter your Email"> 
+        </div>
+         <div>
+            <label for="Phone">phone number</label>
+            <input type="tel" id="Phone"  name="the phone number" required placeholder="please Enter your phone number"> 
+        </div>
+        <div>
+            <label for="gender">Gender</label>
+            <div>
+                <input type="radio"  id="male"  name="gender"  value="male" >
+                <label class="inline-input"  id="male">Male</label>
+            </div>
+        </div>
+         <div>
+                <input type="radio"  id="female"  name="gender"  value="female" >
+                <label class="inline-input"  id="female">female</label>
+            </div><div>
+                <label for="data">Arrival Data</label>
+                <input type="date" id="data" name="data">
+            </div>
+            <div>
+                <label for="data">Departure Data</label>
+                <input type="date" id="data" name="data">
+            </div>
+            <div>
+                <label for="file">Passport</label>
+                <input type="file" id="file" name="file">
+            </div>
+            <div>
+                <label for="cities">which city do you want to stay at ?</label>
+                <select  id="cities" name="cities">
+                    <option value="">choose a city</option>
+                    <option value="cairo">cairo</option>
+                    <option value="Giza">Giza</option>
+                    <option value="Alexandria">Alexandria</option>
+                    <option value="Luxor">Luxor</option>
+                    <option value="Aswan">Aswan</option>
+                </select>
+            </div>
+            <div>
+                <label for="services">choose a service</label>
+                <div>
+                    <input type="checkbox" name="airline-tickets" id="airline-tickets">
+                    <label class="inline-input"for="airline-tickets">airline-tickets</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="hotel" id="hotel">
+                    <label class="inline-input"for="hotel">hotel</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="rental-car" id="rental-car">
+                    <label class="rental-car"for="rental-car">rental-car</label>
+                </div>
+            </div>
+    </div>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

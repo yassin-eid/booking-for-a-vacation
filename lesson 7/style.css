@@ -1,0 +1,53 @@
+html {
+    background-image: url("py.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    background: rgba(255,255,255,0.7);
+    width: 90%;
+    max-width: 800px;
+    font-family: raleway;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px ;
+}
+h1, p {
+    text-align: center;
+    margin: auto;
+}
+label{
+    display: block;
+    margin: lem;
+}
+input, select {
+    display: block;
+    font-size: 20px;
+    padding: 0.3em;
+    width: 100%;
+    background-color: bisque;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+input[type="checkbox"], input[type="radio"] {
+    display: inline;
+    margin: auto;
+    width: auto;
+}
+.inline-input {
+    display: inline;
+    width: auto;
+}
+select {
+    color:black;
+    background-color: white;
+}
+option {
+    color: indigo;
+}
+input[type="submit"]:hover{
+    background-color: green;
+}
+input[type="reset"]:hover{
+    background-color: red;
+}
